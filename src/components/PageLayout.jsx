@@ -28,6 +28,7 @@ export const PageLayout = (props) => {
             <br />
             <br />
             {props.children}
+            <SampleComponent />
         </>
     );
 };
